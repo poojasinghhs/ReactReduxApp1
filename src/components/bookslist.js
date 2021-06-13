@@ -24,7 +24,7 @@ class BooksList extends React.Component{
     render(){        
          const books_li = this.props.bookState.books.map((book,index)=>{
              return(
-                 <li className="list-group-item" 
+                 <li className="list-group-item" style={{color:"green"}}
                    onClick={(event)=>this.bookSelectHandler(book.bookid)}>{book.title}</li>
              )
          });
@@ -40,7 +40,7 @@ class BooksList extends React.Component{
                     <div className="col-xs-4"></div>
                     <div class="col-xs-4">
                          <ul className="list-group">
-                           <p style={{color:"green"}}></p> {books_li}
+                            {books_li}
                          </ul>
                      </div>                
                  </div>
