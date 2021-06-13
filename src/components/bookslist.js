@@ -34,7 +34,7 @@ class BooksList extends React.Component{
                      <button style={{"text-align":"center"}} onClick={()=>this.showAddFormHandler()}>Add New Book</button>
                  </div>
                  <div style={{"text-align":"center"}}>
-                    <h4>Books List</h4>
+                    <h4>--Books List--</h4>
                  </div>               
                  <div className="row">
                     <div className="col-xs-4"></div>
